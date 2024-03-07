@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/kontakt-formular.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/typographie.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/kontaktformular-validation.js" defer></script>
+    <title>Kontaktformular</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo-in-login"><a href="index.html">M.W.C</a></div>
+        <div class="container-for-interaction">
+            <p class="frage-an-user">Do you already have an account?</p>
+            <a href="login.html" class="btn-login">Login</a>
+        </div>
+    </nav>
+    <div class="container-form">
+        <form class="form-kontakt">
+            <select class="anrede" name="#" id="">
+                <option value="# my-4">Anrede</option>
+                <option value="#">Er</option>
+                <option value="#">Sie</option>
+            </select>
+            <div class="container-firstname">
+                <label for="firstname"></label>
+                <input class="focusout" type="text" name="firstname" id="firstname" placeholder="Vorname" required />
+            </div>
+            <div class="container-secondname">
+                <label for="secondName"></label>
+                <input class="focusout" type="text" name="secondName" id="secondName" placeholder="Nachname" required />
+            </div>
+            <div class="container-adresse">
+                <label for="adresse"></label>
+                <input class="focusout" type="text" name="adresse" id="adresse" placeholder="Adresse" required />
+            </div>
+            <div class="container-plz">
+                <label for="plz"></label>
+                <input class="focusout" type="text" name="plz" id="plz" placeholder="Postleitzahl" required />
+            </div>
+            <div class="container-ort">
+                <label for="ort"></label>
+                <input class="focusout" type="text" name="ort" id="ort" placeholder="Ort" required />
+            </div>
+            <div class="continer-email">
+                <label for="email"></label>
+                <input class="focusout" type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="container-messsage">
+                <label for="message"></label>
+                <textarea name="message" id="message" placeholder="Nachricht"></textarea>
+            </div>
+            <div class="container-submit">
+                <input class="focusout" id="submit" type="submit" value="Subscribe!" />
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer-container">
+        <div class="container-for-banner">
+            <h2 class="sub sub-in-main-footer">Do you have Any Project in Mind?</h2>
+            <p class="text text-in-main-banner">Join our community and be a Part of M.W.C</p>
+            <a href="#" class="btn btn-in-banner">Join</a>
+        </div>
+
+
+        <div class="footer-unter-pages-container">
+            <div class="logo-container-footer">
+                <a class="sub" href="#">M.W.C</a>
+            </div>
+
+            <div class="container-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="fashion-and-art.html">Fashion & Art</a>
+                    <li><a href="community.html">Community</a>
+                </ul>
+            </div>
+
+            <div class="container-for-requarments-of-gaverment">
+                <a href="">Impressum</a> <br><br>
+                <a href="">Datenschutz</a>
+                <!-- social Media Icons einfügen -->
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
